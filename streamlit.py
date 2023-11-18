@@ -28,7 +28,7 @@ def call_azure_function(selected_id):
         return None
 
 def main():
-    st.title("Votre Application Streamlit")
+    st.title("Application de recommandations d'articles")
 
     user_id = st.text_input("Entrez l'ID de l'utilisateur")
 
